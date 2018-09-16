@@ -1,4 +1,5 @@
-
+//This is Made by Shivam Vatshayan vatshayan007@gmail.com
+//It can run in Turbo c++ and Codeblock
 
 #include <stdio.h> 
 #define TOTAL_STATES 2
@@ -41,8 +42,7 @@ int main(void)
  
     DefineDFA();    //Fill transition table
  
-    printf("Enter a string with 'a' s and 'b's:\n
-                Press Enter Key to stop\n");
+    printf("Enter a string with 'a' s and 'b's:\n Press Enter Key to stop\n");
  
  
     while((current_symbol=getchar())!= '\n')
